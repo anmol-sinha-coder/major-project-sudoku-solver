@@ -12,7 +12,7 @@ import Solver from '../../services/Solver/solver';
 import { appReducer, initialState } from './reducer';
 import './style.css';
 
-const app = (props) => {
+const useApp = (props) => {
 	const [state, dispatch] = useReducer(appReducer, initialState);
 
 	const {
@@ -141,4 +141,4 @@ const app = (props) => {
 	);
 };
 
-export default app;
+export default useApp;

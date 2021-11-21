@@ -1,6 +1,6 @@
-export * from './solver';
-
 export * from './utils';
+
+export * from './solver';
 
 export * from './logs';
 

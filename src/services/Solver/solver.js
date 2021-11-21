@@ -16,7 +16,8 @@ import {
 	getPairSquares,
 	unsolvedSquares,
 	canEliminate,
-	showBoardStatus,
+	getBoardState,
+	//showBoardStatus,
 	isSolved,
 	display,
 	getSquareUnitRowCol,
@@ -360,7 +361,7 @@ const Solver = async (values) => {
 		return solveBoardResult;
 	} catch (error) {
 		return solveBoardResult;
-		showBoardStatus(values, ' Debugger ');
+		//showBoardStatus(values, ' Debugger ');
 		console.log('Error solver ', error);
 	}
 };

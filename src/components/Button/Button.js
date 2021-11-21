@@ -3,7 +3,7 @@ import Spinner from '../Spinner/Spinner';
 import { useSpring, animated } from 'react-spring';
 import './style.css';
 
-const button = (props) => {
+const useButton = (props) => {
 	/* showSpinner is used to stay in the "isSpinning state" a bit longer 
     to avoid loading flashes if the loading state is too short. */
 	const [showSpinner, setShowSpinner] = useState(false);
@@ -66,4 +66,4 @@ const button = (props) => {
 	);
 };
 
-export default button;
+export default useButton;

@@ -3,7 +3,7 @@ import './style.css';
 import Button from '../../components/Button/Button';
 import ErrorMessage from './ErrorMessage/ErrorMessage';
 
-const newBoardForm = (props) => {
+const useNewBoardForm = (props) => {
 	const inputRef = useRef(null);
 
 	useEffect(() => {
@@ -46,4 +46,4 @@ const newBoardForm = (props) => {
 	);
 };
 
-export default newBoardForm;
+export default useNewBoardForm;
