@@ -8,7 +8,9 @@ const header = (props) => {
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
       <h1 className="App-title">React Sudoku Solver</h1>
-      <h5 className="App-author">Anmol Sinha<br/>Arpit Nabaria<br/>Ankit Jha</h5>
+      <h5 className="App-author"><font color="red"> Anmol Sinha   </font>
+                            <br/><font color="green"> Arpit Nabaria </font>
+                            <br/><font color="blue"> Ankit Jha     </font></h5>
       <img src={me} className="App-author-image" alt="logo" />
     </header>
   );
