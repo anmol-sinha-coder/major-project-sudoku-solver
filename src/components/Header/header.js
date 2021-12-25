@@ -10,7 +10,8 @@ const header = (props) => {
       <h1 className="App-title">React Sudoku Solver</h1>
       <h5 className="App-author"><font color="red"> Anmol Sinha.   </font>
                             <br/><font color="green"> Arpit Nabaria. </font>
-                            <br/><font color="blue"> Ankit Jha.     </font></h5>
+                            <br/><font color="blue"> Ankit Jha.     </font>
+                            <br/><font color="black"> Vedant Shrivastava.     </font></h5>
       <img src={me} className="App-author-image" alt="logo" />
     </header>
   );
